@@ -117,3 +117,25 @@ padding: 60px;
       font-size: 16px;
       padding: 10px 20px;
   }
+
+  .intro {
+      text-align: center;
+  }
+
+  .intro h2 {
+      border-bottom: 3px solid;
+      border-color: #fce138;
+      color:#024e76;
+      display: inline-block;
+      font-size: 55px;
+      margin-bottom: 35px;
+      padding: 0 100ppx 20px 100px;
+  }
+
+  .intro p {
+      color: #39a6b2;
+      font-size: 20px;
+      line-height: 1.7;
+      margin: 0 auto;
+      width: 80%;
+  }
