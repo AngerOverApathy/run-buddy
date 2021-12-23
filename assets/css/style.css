@@ -17,12 +17,12 @@
  header h1 {
      color: #fce138;
      display: inline;
-     font-szie: 36px;
+     font-size: 36px;
      font-weight: bold;
-     margin: 0
+     margin: 0;
  }
 
- header a{
+ header a {
      color: #fce138;
      text-decoration: none;
  }
@@ -122,16 +122,6 @@ padding: 60px;
       text-align: center;
   }
 
-  .intro h2 {
-      border-bottom: 3px solid;
-      border-color: #fce138;
-      color:#024e76;
-      display: inline-block;
-      font-size: 55px;
-      margin-bottom: 35px;
-      padding: 0 100ppx 20px 100px;
-  }
-
   .intro p {
       color: #39a6b2;
       font-size: 20px;
@@ -139,3 +129,95 @@ padding: 60px;
       margin: 0 auto;
       width: 80%;
   }
+
+  .steps {
+      background: #fce138;
+      text-align: center;
+  }
+
+  .steps div {
+    margin-bottom: 80px;
+}
+
+.steps img {
+    width: 15%;
+    margin: 10px 0;
+}
+
+.steps h3 {
+    color: #024e76;
+    font-size: 46px;
+    margin-top: 10px;
+}
+
+.steps p {
+    color: #39a6b2;
+    font-size: 23px;
+  }
+
+  .steps span {
+      font-size: 38px;
+  }
+  .section-title {
+      border-bottom: 3px solid;
+      color: #024e76;
+      display: inline-block;
+      font-size: 55px;
+      margin-bottom: 35px;
+      padding: 0 100px 20px 100px;
+  }
+
+  .primary-border {
+      border-color: #fce138;
+  }
+
+  .secondary-border {
+      border-color: #39a6b2;
+  }
+
+.trainers {
+    text-align: center;
+}
+ 
+.trainer {
+    background: #024e76;
+    color: #fce138;
+    margin: 0 auto 30px auto;
+    overflow: auto;
+    width: 900px;
+}
+
+.trainer img {
+    float: left;
+    width: 35%;
+}
+
+.trainer-bio {
+    float: left;
+    padding: 35px;
+    width: 65%;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.trainer-bio h3 {
+    font-size: 32px;
+    margin-bottom: 8px;
+}
+
+.trainer-bio h4 {
+    font-weight: lighter;
+    font-size: 26px;
+    margin-bottom: 35px;
+}
+
+.trainer-bio p {
+    font-size: 17px;
+    line-height: 1.3;
+}
