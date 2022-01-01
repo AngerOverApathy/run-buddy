@@ -147,21 +147,17 @@ padding: 60px;
 
   /* What we do/ what you do */
 
-  .intro {
-      text-align: center;
-  }
-
   .intro p {
       color: #39a6b2;
       font-size: 20px;
       line-height: 1.7;
       margin: 0 auto;
       width: 80%;
+      text-align: center;
   }
 
   .steps {
       background: #fce138;
-      text-align: center;
   }
 
   .steps div {
@@ -193,10 +189,12 @@ padding: 60px;
   .section-title {
       border-bottom: 3px solid;
       color: #024e76;
-      display: inline-block;
       font-size: 55px;
-      margin-bottom: 35px;
-      padding: 0 100px 20px 100px;
+      padding-bottom: 20px;
+      text-align: center;
+      margin: 0 auto 35px auto;
+      width: 50%;
+      
   }
 
   .primary-border {
@@ -207,9 +205,11 @@ padding: 60px;
       border-color: #39a6b2;
   }
 
+  /*
 .trainers {
-    text-align: center;
+    
 }
+*/
  
 .trainer {
     background: #024e76;
@@ -238,6 +238,10 @@ padding: 60px;
     text-align: right;
 }
 
+.flex-row {
+    display: flex;
+}
+
 .trainer-bio h3 {
     font-size: 32px;
     margin-bottom: 8px;
@@ -257,7 +261,6 @@ padding: 60px;
 /* reach out section */
 
 .contact {
-    text-align: center;
     background: #024e76;
 }
 
